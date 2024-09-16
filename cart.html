@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./index.html">MyStore</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="./cart.html">Cart</a>
+                    <div id="cart_badge" class="badge cart_badge">0</div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="drop-btn">Account <span>&#9660;</span></a>
+                    <ul class="dropdown_content">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <section class="cart_cont">
+            <div class="cart_items">
+
+            </div>
+
+            <div class="amount">
+                <div class="amount_card">
+                    <h1>Checkout</h1>
+                    <hr>
+                    <p>Total Items: <span id="total_items">6</span></p>
+                    
+                    <p>Total Cost: <span id="total_cost">6</span></p>
+                    
+                    <p>Discount: <span id="discount">6</span></p>
+                    <hr>
+                    <p>Total: <span id="total">12</span></p>
+                    <hr>
+                    <button class="btn">Pay Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
